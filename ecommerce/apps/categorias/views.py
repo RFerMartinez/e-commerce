@@ -1,3 +1,7 @@
 from django.shortcuts import render
 
-# Create your views here.
+def listar_categorias(request):
+    data = {
+
+    }
+    return render(request, 'categorias/lista.html', data)
